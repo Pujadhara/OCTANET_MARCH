@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Trilong", serif;
+
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    background-size: cover;
+}
+#nav{
+    width: 100%;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: solid;
+}
+
+#logo{
+    margin-right: 100px;
+    color: #003333;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.list a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-right: 25px;
+}
+
+button{
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+.images{
+    width:100%;
+    min-height: 95vh;
+    background-color: #003333;
+    background-size: cover;
+    background-position: center;
+
+}
+.images1{
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/942/595/desktop-wallpaper-38-android-nature-vertical-nature-thumbnail.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 300px;
+    width: 220px;
+}
+
+.h-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    color: #fff;
+}
+
+
+.h-text h1{
+    font-size: 4.0rem;
+}
+.h-text a{
+    text-decoration: none;
+    color: #033203;
+    background: yellow;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+    transition: 0.45s;
+}
+.h-text a:hover{
+    border: 1px solid yellow;
+    background: transparent;
+}
+
+.h-text span{
+    letter-spacing: 5px;
+}
