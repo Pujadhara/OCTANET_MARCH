@@ -42,6 +42,11 @@ button{
     margin-right: 50px;
 }
 
+button:hover{
+    background: #003333;
+    color: #fff;
+}
+
 .images{
     width:100%;
     min-height: 95vh;
@@ -50,18 +55,23 @@ button{
     background-position: center;
 
 }
-.images1{
-    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/942/595/desktop-wallpaper-38-android-nature-vertical-nature-thumbnail.jpg);
+
+.images .back{
+    height: 95vh;
+    width: 50vw;
+    background-color: gold;
+    border: none;
+    position: absolute;
+    right: 0px;
+    background-image: url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2VhcmNoJTIwam9ifGVufDB8fDB8fHww);
     background-size: cover;
-    background-position: right;
-    height: 300px;
-    width: 220px;
+    background-position: center;
 }
 
 .h-text {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 25%;
     max-width: 650px;
     transform: translate(-50% , -50%);
     text-align: center;
@@ -80,9 +90,22 @@ button{
     letter-spacing: 5px;
     transition: 0.45s;
 }
+
+.h-text div{
+    color: #fff;
+    margin-top: 4px;
+    margin-bottom: 40px;
+    font-size:medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .h-text a:hover{
     border: 1px solid yellow;
     background: transparent;
+    color: #fff;
+}
+
+.h-text a{
+    margin-bottom: 40px;
 }
 
 .h-text span{
